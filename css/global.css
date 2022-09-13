@@ -5,7 +5,7 @@
     font-weight: bold;
 }
 
-* { 
+* {
     font-family: 'My Lucida', Console;
 }
 
@@ -20,12 +20,12 @@ a {
 
 .wrapper {
     padding: 25px 0;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-body > header {
+body>header {
     margin-bottom: 20px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
@@ -33,7 +33,7 @@ body > header {
 }
 
 .flex {
-    display:flex;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -42,7 +42,7 @@ body > header {
     justify-content: space-between;
 }
 
-header .logo-search form  {
+header .logo-search form {
     width: 50%;
 }
 
@@ -77,7 +77,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-nav ul li a { 
+nav ul li a {
     font-size: 1.1em;
     font-weight: normal;
     color: #828c92;
@@ -98,13 +98,13 @@ main header aside img {
 }
 
 aside {
-    width:20%;
-    margin-left:5%;
+    width: 20%;
+    margin-left: 5%;
 }
 
 main {
-    width:70%;
-    margin-right:10%;
+    width: 70%;
+    margin-right: 10%;
 }
 
 nav ul li:last-child {
@@ -118,17 +118,17 @@ h1 {
     margin: 0 0 8px 0;
 }
 
-.name p { 
+.name p {
     color: #a0aab1;
     font-size: 12px;
 }
 
-.name p img { 
+.name p img {
     margin-left: 12px;
 }
 
 .name-photo {
-    display:flex;
+    display: flex;
 }
 
 .stats-links {
@@ -141,7 +141,8 @@ h1 {
     justify-content: space-between;
 }
 
-.stats-links span, .stats-links a {
+.stats-links span,
+.stats-links a {
     margin-right: 20px;
 }
 
@@ -226,7 +227,8 @@ input.submit {
     text-overflow: ellipsis;
 }
 
-#albums article .artist, #albums article .count {
+#albums article .artist,
+#albums article .count {
     margin-top: 4px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -237,18 +239,32 @@ input.submit {
     margin-left: 5px;
 }
 
-nav.browse a, nav.music a {
+nav.browse a,
+nav.music a {
     padding-left: 20px;
     padding-top: 2px;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+nav a.heavy {
+    background: url("../img/icon/heavy.png") no-repeat 0px;
+}
 
+nav a.recent {
+    background: url("../img/icon/recent.png") no-repeat 0px;
+}
 
+nav a.top {
+    background: url("../img/icon/top.png") no-repeat 0px;
+}
 
+nav a.new {
+    background: url("../img/icon/new.png") no-repeat 0px;
+}
 
+nav a.collection {
+    background: url("../img/icon/collection.png") no-repeat 0px;
+}
+
+nav a.history {
+    background: url("../img/icon/history.png") no-repeat 0px;
+}
